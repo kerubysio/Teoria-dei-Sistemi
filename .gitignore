@@ -1,0 +1,5 @@
+# .gitignore consigliato per Obsidian
+.obsidian/workspace
+.DS_Store
+Thumbs.db
+
