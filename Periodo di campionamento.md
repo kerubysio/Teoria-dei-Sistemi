@@ -28,4 +28,3 @@ $$\alpha \omega_{3} \leq \frac{2\pi}{T_{c}} \leq 10\alpha\omega_{3}$$
 
 Per rappresentare tale sistema in forma ISU, basta applicare le seguenti formule:
 $$\begin{align} A_{D} &= e^{At} = \mathcal{L}^{-1}[(sI-A)^{-1}]  \\ B_{D} &= A^{-1}(A_{D}-I)B  \\ C_{D} &= C  \\ D_{D} &= D \end{align}$$
-$$O^T \underline{z} = \begin{pmatrix}o_{11} && \dots && o_{1o} \\ \vdots && \dots && \vdots \\ o_{o1} && \dots && o_{oo} \end{pmatrix}^T \begin{pmatrix}z_{1} \\ \vdots \\ z_{r}\end{pmatrix} = \underline{0}$$

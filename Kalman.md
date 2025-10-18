@@ -22,4 +22,3 @@ $$O^T \underline{z} = \begin{pmatrix}o_{11} && \dots && o_{1o} \\ \vdots && \dot
 
 Le soluzioni di questa equazione ci restituiranno lo spazio di non osservabilità, ossia $X_{NO}$.
 
-$$\begin{align} A_{D} &= e^{At} = \mathcal{L}^{-1}[(sI-A)^{-1}]  \\ B_{D} &= A^{-1}(A_{D}-I)B  \\ C_{D} &= C  \\ D_{D} &= D \end{align}$$
