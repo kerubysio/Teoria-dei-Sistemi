@@ -15,9 +15,7 @@ Sia \,\, \tau = \frac{1}{T_{p}}, \,\, \alpha \in [5;10] \,\, e \,\, t_{\alpha_{1
 $$
 Allora avremo che:
 
-$$
-\frac{t_{\alpha1\%}}{10\alpha} \leq T_{c} \leq \frac{t_{\alpha1\%}}{\alpha}
-$$
+$$\frac{t_{\alpha1\%}}{10\alpha} \leq T_{c} \leq \frac{t_{\alpha1\%}}{\alpha}$$
 Dopodichè scriviamo la isu con le matrici a fine paragrafo.
 
 ## Poli ravvicinati
