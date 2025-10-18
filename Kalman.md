@@ -21,3 +21,5 @@ In modo analogo calcoliamo lo spazio non osservabile, come segue:
 $$O^T \underline{z} = \begin{pmatrix}o_{11} && \dots && o_{1o} \\ \vdots && \dots && \vdots \\ o_{o1} && \dots && o_{oo} \end{pmatrix}^T \begin{pmatrix}z_{1} \\ \vdots \\ z_{r}\end{pmatrix} = \underline{0}$$
 
 Le soluzioni di questa equazione ci restituiranno lo spazio di non osservabilità, ossia $X_{NO}$.
+
+$$\begin{align} A_{D} &= e^{At} = \mathcal{L}^{-1}[(sI-A)^{-1}]  \\ B_{D} &= A^{-1}(A_{D}-I)B  \\ C_{D} &= C  \\ D_{D} &= D \end{align}$$
