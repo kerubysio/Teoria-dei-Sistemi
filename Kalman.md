@@ -22,3 +22,15 @@ $$O^T \underline{z} = \begin{pmatrix}o_{11} && \dots && o_{1o} \\ \vdots && \dot
 
 Le soluzioni di questa equazione ci restituiranno lo spazio di non osservabilità, ossia $X_{NO}$.
 
+# Matrice di trasformazione
+
+Per creare la matrice di trasformazione che porti il sistema in forma canonica di Kalman, procedi come segue:
+
+$$
+\begin{align}
+X_{1} &= X_{R} \cap X_{NO} \\
+X_{2} &= X_{R} \cap (X_{NR}\cup X_{O})  \\
+X_{3} &= X_{NO} \cap (X_{NR} \cup X_{O})  \\
+X_{4} &= X_{NR} \cap X_{O}
+\end{align}
+$$
