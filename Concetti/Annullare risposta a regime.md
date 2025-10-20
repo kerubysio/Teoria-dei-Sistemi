@@ -1,4 +1,8 @@
-## Zeri immaginari puri e risposta a regime nulla
+## Nella pratica
+
+Quando fai un esercizio del genere poni il modulo della fdt pari a 0, poi imponi che le soluzioni trovate abbiano parte reale nulla e, se ci sono parametri, verifica che si trovino nel range in cui il sistema è asintoticamente stabile.
+
+# Zeri immaginari puri e risposta a regime nulla
 
 Quando un sistema lineare e tempo-invariante è stabile e riceve in ingresso una sinusoide  
 $$ u(t) = \sin(\omega t) $$  
@@ -21,33 +25,9 @@ Nel piano complesso $$ s = \sigma + j\omega $$
 
 Uno zero **immaginario puro** si trova *esattamente sull'asse immaginario*.  Solo in questo caso il valore della funzione di trasferimento sulla risposta in frequenza,  diventa realmente **zero**.
 
+## In sintesi
+
 **IN SINTESI**: un ingresso sinusoidale introduce nel sistema una frequenza $\omega$, per annullarla è necessario che G(s) si annulli per la stessa frequenza omega (per il teorema della frequenza armonica). Affinchè questo accada, è necessario che ci sia quindi uno zero in $\omega$. Se lo zero ha anche una parte reale, cioè è del tipo $z = \sigma + j\omega$, lo zero si trova sfasato rispetto ad omega, e non in omega.
 
----
 
-### Sintesi
-
-- **Zeri in $$ \pm j\omega $$ → $$ G(j\omega)=0 $$ → la sinusoide di frequenza $$ \omega $$ viene totalmente annullata.**  
-- **Zeri con parte reale negativa → $$ G(j\omega) \neq 0 $$ → attenuano, ma non annullano.**  
-- **Zeri con parte reale positiva → destabilizzano o amplificano.**
-
----
-
-### Applicazione al problema visto
-
-Nel sistema dato, gli zeri sono:
-
-$$
-z_{1,2} = \frac{-k \pm \sqrt{k^2 + 8hk}}{2}.
-$$
-
-Per avere zeri immaginari puri serve che la **parte reale sia nulla**, quindi $$ k = 0 $$.  
-Ma la stabilità richiede $$ h < 0 \ \wedge \ k < 0 $$.  
-Se $$ k = 0 $$ la stabilità viene meno e gli zeri si riducono a $$ z = 0 $$ (niente parte immaginaria).
-
-**Conclusione:** non è possibile scegliere valori di $$ h $$ e $$ k $$ tali da avere:
-- sistema stabile **e**
-- zeri in $$ \pm j\omega $$.
-
-Quindi **il sistema non può mai annullare a regime una sinusoide in ingresso**.
 
