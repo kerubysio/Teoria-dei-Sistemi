@@ -1,3 +1,7 @@
+Materia: [[Teoria dei Sistemi dinamici]]
+
+---
+
 ## Nella pratica
 
 Quando fai un esercizio del genere poni il modulo della fdt pari a 0, poi imponi che le soluzioni trovate abbiano parte reale nulla e, se ci sono parametri, verifica che si trovino nel range in cui il sistema è asintoticamente stabile.
