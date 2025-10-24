@@ -9,7 +9,7 @@ Quando fai un esercizio del genere poni il modulo della fdt pari a 0, poi imponi
 # Zeri immaginari puri e risposta a regime nulla
 
 Quando un sistema lineare e tempo-invariante è stabile e riceve in ingresso una sinusoide  
-$$ u(t) = \sin(\omega t) $$  
+$$u(t) = \sin(\omega t)$$  
 a regime la risposta  y(t)  ha la **stessa frequenza**  $\omega$ , ma un certo **guadagno** e **fase**.  
 Se si vuole che la **risposta a regime sia nulla**, per quell'ingresso sinusoidale, la funzione di trasferimento deve soddisfare:
 
