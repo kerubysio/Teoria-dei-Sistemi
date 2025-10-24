@@ -23,7 +23,7 @@ Per cui se un ingresso ha una frequenza pari alla parte immaginaria dello zero, 
 
 ### Perché serve che lo zero sia immaginario puro?
 
-Nel piano complesso $$ s = \sigma + j\omega$$
+Nel piano complesso $$s = \sigma + j\omega$$
 - $\sigma$  (parte reale): determina la crescita o il decadimento esponenziale;
 - $\omega$  (parte immaginaria): rappresenta le oscillazioni sinusoidali.
 
