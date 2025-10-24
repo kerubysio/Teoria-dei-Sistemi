@@ -12,7 +12,7 @@ In questo caso posso approssimare la fdt per poli dominanti, ossia considero sol
 A questo punto, applico la seguente formula:
 
 Sia:
-$$\tau = \frac{1}{T_{p}}, \,\, \alpha \in [5;10] \,\, e \,\, t_{ \alpha_{1}\% } = 4,6\tau$$
+$$\tau = \frac{1}{T_{p}}, \,\, \alpha \in [5;10] \,\, e \,\, t_{ \alpha_{1} } = 4,6\tau$$
 Allora avremo che:
 
 $$\frac{t_{\alpha1\%}}{10\alpha} \leq T_{c} \leq \frac{t_{\alpha1\%}}{\alpha}$$
@@ -29,6 +29,7 @@ $$\alpha \omega_{3} \leq \frac{2\pi}{T_{c}} \leq 10\alpha\omega_{3}$$
 ## Rappresentazione ISU del sistema a dati campionati
 
 Per rappresentare tale sistema in forma ISU, basta applicare le seguenti formule:
+
 $$A_{D} = e^{At} = \mathcal{L}^{-1}\big[(sI-A)^{-1}\big];$$
 
 $$B_{D} = A^{-1}(A_{D}-I)B;$$
