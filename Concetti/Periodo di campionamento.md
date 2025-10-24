@@ -19,6 +19,7 @@ Allora avremo che:
 
 
 $$\frac{t_{\alpha1}}{10\alpha} \leq T_{c} \leq \frac{t_{\alpha1}}{\alpha}$$
+
 Dopodichè scriviamo la isu con le matrici a fine paragrafo.
 
 ## Poli ravvicinati
