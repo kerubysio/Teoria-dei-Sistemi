@@ -29,7 +29,7 @@ $$\alpha \omega_{3} \leq \frac{2\pi}{T_{c}} \leq 10\alpha\omega_{3}$$
 ## Rappresentazione ISU del sistema a dati campionati
 
 Per rappresentare tale sistema in forma ISU, basta applicare le seguenti formule:
-$$ A_{D} = e^{At} = \mathcal{L}^{-1}\big[(sI-A)^{-1}\big];$$
+$$ A_{D} = e^{At} = \mathcal{L}^{-1}[(sI-A)^{-1}];$$
 $$B_{D} = A^{-1}(A_{D}-I)B;$$
 $$C_{D} = C;$$
 $$D_{D} = D$$
