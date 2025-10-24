@@ -2,9 +2,7 @@ Materia: [[Teoria dei Sistemi dinamici]]
 
 Se il sistema è stabile, ti basta calcolare separatamente risposta libera e risposta forzata, sommarle e poi porre a zero i termini che non ci interessano. La formula da applicare è:
 
-$$
-y(t) = y_{l}(t) + y_{f}(t)
-$$
+$$y(t) = y_{l}(t) + y_{f}(t)$$
 Con:
 
 $$

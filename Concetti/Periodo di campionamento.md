@@ -10,7 +10,9 @@ Per prima cosa, analizza la fdt e trova i poli. Ci sono due casi:
 
 In questo caso posso approssimare la fdt per poli dominanti, ossia considero solo il polo che ha la parte reale in modulo più piccola, ossia il più vicino all'asse immaginario.
 A questo punto, applico la seguente formula:
-$$Sia \,\, \tau = \frac{1}{T_{p}}, \,\, \alpha \in [5;10] \,\, e \,\,t_{\alpha_{1}\%} = 4,6\tau$$
+
+Sia:
+$$\tau = \frac{1}{T_{p}}, \,\, \alpha \in [5;10] \,\, e \,\, t_{ \alpha_{1}\% } = 4,6\tau$$
 Allora avremo che:
 
 $$\frac{t_{\alpha1\%}}{10\alpha} \leq T_{c} \leq \frac{t_{\alpha1\%}}{\alpha}$$

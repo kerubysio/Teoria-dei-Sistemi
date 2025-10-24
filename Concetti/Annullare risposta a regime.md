@@ -13,7 +13,7 @@ $$u(t) = \sin(\omega t)$$
 a regime la risposta  y(t)  ha la **stessa frequenza**  $\omega$ , ma un certo **guadagno** e **fase**.  
 Se si vuole che la **risposta a regime sia nulla**, per quell'ingresso sinusoidale, la funzione di trasferimento deve soddisfare:
 
-$$ |G(j\omega)|sen(\omega t + \angle{G(j\omega)} ) = 0 \Leftrightarrow |G(j\omega)| = 0 $$
+$$|G(j\omega)|sen(\omega t + \angle{G(j\omega)} ) = 0 \Leftrightarrow |G(j\omega)| = 0$$
 
 Questo può accadere solo se il sistema ha uno zero in  $s = j\omega$, cioè uno **zero immaginario puro**.  
 
