@@ -12,11 +12,13 @@ In questo caso posso approssimare la fdt per poli dominanti, ossia considero sol
 A questo punto, applico la seguente formula:
 
 Sia:
-$$\tau = \frac{1}{T_p},\quad \alpha \in [5,10]\quad \text{e}\quad t_{\alpha_{1\%}} = 4{,}6\,\tau$$
+
+$$\tau = \frac{1}{T_p},\quad \alpha \in [5,10]\quad \text{e}\quad t_{\alpha_{1}} = 4{,}6\,\tau$$
 
 Allora avremo che:
 
-$$\frac{t_{\alpha1\%}}{10\alpha} \leq T_{c} \leq \frac{t_{\alpha1\%}}{\alpha}$$
+
+$$\frac{t_{\alpha1}}{10\alpha} \leq T_{c} \leq \frac{t_{\alpha1}}{\alpha}$$
 Dopodichè scriviamo la isu con le matrici a fine paragrafo.
 
 ## Poli ravvicinati
