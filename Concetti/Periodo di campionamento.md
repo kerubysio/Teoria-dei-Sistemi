@@ -12,9 +12,7 @@ In questo caso posso approssimare la fdt per poli dominanti, ossia considero sol
 A questo punto, applico la seguente formula:
 
 Sia:
-$$
-\tau = \frac{1}{T_p},\quad \alpha \in [5,10]\quad \text{e}\quad t_{\alpha_{1\%}} = 4{,}6\,\tau
-$$
+$$\tau = \frac{1}{T_p},\quad \alpha \in [5,10]\quad \text{e}\quad t_{\alpha_{1\%}} = 4{,}6\,\tau$$
 
 Allora avremo che:
 
