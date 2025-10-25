@@ -4,7 +4,8 @@ Controlla il numero di n ingressi e di m uscite. La fdt sarà una matrice con n 
 
 $$
 W(s) =\begin{pmatrix} w_{00} && \dots && w_{0m} \\
-\vdots && \vdots && \vdots \\ w_{n0} && \dots && w_{nm}  \\ \\
+\vdots && \vdots && \vdots \\
+w_{n0} && \dots && w_{nm} \\
 \end{pmatrix}
 $$ 
 
